@@ -15,9 +15,9 @@ margin-left:20px !important;}
 </style>???
 
 How to show edit page
-http://elm-epm-dev-02/PWA/default.aspx?PageView=Shared&InitialTabId=Ribbon.WebPartPage&VisibilityContext=WSSWebPartPage
+http://example-epm-dev/PWA/default.aspx?PageView=Shared&InitialTabId=Ribbon.WebPartPage&VisibilityContext=WSSWebPartPage
 
 // Append for edit page
 &ToolPaneView=2&pagemode=edit
 
-http://elm-epm-dev-02/PWA/_layouts/15/viewlsts.aspx
+http://example-epm-dev/PWA/_layouts/15/viewlsts.aspx
