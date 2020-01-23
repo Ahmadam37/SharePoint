@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @font-face {
+            font-family: 'Noto Sans KR Regular';
+            src: url('C:/Users/abinmana/Downloads/Noto_Sans_KR.otf');
+            src: url('C:/Users/abinmana/dOWNLOADS/NotoSansKR-Regular.otf');
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Noto Sans KR Regular;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: #222222; */
+            min-height: 100vh;
+            font-family: Noto Sans KR Regular;
+            /* background-color: slategray; */
+        }
+        
+        .cont {
+            position: relative;
+            width: 1350px;
+            display: flex;
+            /* justify-content: space-between; */
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .cont {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .cont .card {
+            position: relative;
+            height: 200px;
+            background: rgb(42, 110, 187);
+            display: flex;
+            flex-direction: row;
+            flex-flow: row;
+            width: 350px;
+            margin: 35px;
+            border-radius: 6px;
+            box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, .4);
+        }
+        
+        .cont .card:hover {
+            background-color: white;
+        }
+        
+        .cont .card .images {
+            /* position: absolute; */
+            width: 100px;
+            height: 100%;
+            position: relative;
+            float: left;
+            top: 0;
+            left: 0;
+            /* width: 100%;
+            height: 100%; */
+            background: rgb(250, 250, 250);
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+            border-radius: 4px 0px 0px 4px;
+        }
+        
+        .cont .card:hover .images {
+            width: 80px;
+            height: 80px;
+            left: -45px;
+            top: calc(50% -75px);
+            transition: 0.5s ease-in-out;
+            background-color: #9378a7;
+            transform: scale(35%);
+            border-radius: 4px;
+        }
+        
+        .cont .card .images img {
+            max-width: 56px;
+            transition: 0.5s ease-in-out;
+            /* margin-left: -55%; */
+            /* height: 50%; */
+        }
+        
+        .cont .card:hover .images img {
+            max-width: 48px;
+        }
+        
+        .cont .card .content {
+            position: absolute;
+            right: 0;
+            width: calc(100% - 75px);
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .cont .card .content h1 {
+            margin-bottom: 15px;
+            font-size: 22px;
+            color: white;
+            margin-left: 20%;
+        }
+        
+        .cont .card:hover .content h1 {
+            margin-bottom: 15px;
+            font-size: 22px;
+            color: white;
+            margin-left: 20%;
+        }
+        
+        .cont .card .content a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            /* background: red; */
+            text-decoration: none;
+            color: rgb(42, 110, 187);
+        }
+        
+        .cont .card:hover .content a {
+            background-color: rgb(42, 110, 187);
+            color: white;
+            margin-left: 15%;
+            border-radius: 4px;
+            font-size: 22px;
+        }
+        
+        .cont .card .content p {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            margin-left: 15%;
+            /* background: red; */
+            text-decoration: none;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+
+        <div class="card">
+            <div class="images" data-text="Projects">
+                <img src="c:/Users/abinmana/Desktop/flaticon/msProject.png" alt="">
+            </div>
+            <div class="content">
+
+                <div>
+                    <h1>Project Center</h1>
+                    <p>This is the pharagraph</p>
+                    <a href="">Project Center</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="images" data-text="Dashboard">
+                <img src="C:/Users/abinmana/Desktop/flaticon/dashboard64.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>Dashboard</h1>
+                    <p>This is the pharagraph</p>
+                    <a href="">Dashboard</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="images" data-text="Resource Center">
+                <img src="C:/Users/abinmana/Desktop/flaticon/resource128.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>Resource Center</h1>
+                    <p>This is the pharagraph</p>
+                    <a href="">Resource Center</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="images" data-text="My Tasks">
+                <img src="C:/Users/abinmana/Desktop/flaticon/gantt64.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>My Tasks</h1>
+                    <p>This is the pharagraph</p>
+                    <a href="">My Tasks</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="images" data-text="Settings">
+                <img src="C:/Users/abinmana/Desktop/flaticon/money (7).png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>Dashboard</h1>
+                    <p>This is the pharagraph</p>
+                    <a href="">More Detailes</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="images" data-text="Settings">
+                <img src="C:/Users/abinmana/Desktop/flaticon/settings128.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>Settings</h1>
+                    <p>This is the pharagraph</p>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
