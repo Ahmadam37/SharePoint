@@ -1,0 +1,23 @@
+?<style unselectable="on">
+#sideNavBox{
+display:none;}
+
+#contentBox{
+margin-left:20px !important;}
+
+.s4-title {display:none !important;}
+.s4-notdlg{display:none !important;}
+.s4-help {visibility:hidden;}
+#SRSB{display:none !important;}
+.s4-tn{ display:none !important;}
+
+.s4-titlerow {display:none !important;}
+</style>???
+
+How to show edit page
+http://elm-epm-dev-02/PWA/default.aspx?PageView=Shared&InitialTabId=Ribbon.WebPartPage&VisibilityContext=WSSWebPartPage
+
+// Append for edit page
+&ToolPaneView=2&pagemode=edit
+
+http://elm-epm-dev-02/PWA/_layouts/15/viewlsts.aspx
