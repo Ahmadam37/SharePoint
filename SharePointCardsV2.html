@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html
+  xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+>
+  <head>
+    <style>
+      @font-face {
+        font-family: "Noto Sans KR Regular";
+        src: url("http://elm-epm-dev-02/pwa/siteassets/fonts/NotoSansKR-Regular.otf");
+        src: url("C://ELM/Fonts/NotoSansKR-Regular.otf");
+      }
+
+      @font-face {
+        font-family: "Noto Sans KR Light";
+        src: url("http://elm-epm-dev-02/pwa/siteassets/fonts/Noto_Sans_KR-Light.otf");
+        src: url("C://ELM/Fonts/NotoSansKR-Light.otf");
+        /* src: url("C://ELM/Fonts/NotoSansKR-Medium.otf"); */
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Noto Sans KR Light;
+      }
+
+      #sideNavBox {
+        display: none;
+      }
+      #suiteBarTop {
+        display: none;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: #222222; */
+        min-height: 100vh;
+        font-family: Noto Sans KR Light;
+        /* background-color: slategray; */
+      }
+
+      .cont {
+        position: relative;
+        width: 1350px;
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        margin: 20px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .cont {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+
+      .cont .card {
+        position: relative;
+        height: 200px;
+        background: rgb(91, 134, 182);
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        width: 350px;
+        margin: 35px;
+        border-radius: 6px;
+        box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, 0.4);
+        transition: 0.5s ease-in-out;
+      }
+
+      .cont .card:hover {
+        background-color: white;
+      }
+
+      .cont .card .images {
+        /* position: absolute; */
+        width: 100px;
+        height: 100%;
+        position: relative;
+        float: left;
+        top: 0;
+        left: 0;
+        /* width: 100%;
+            height: 100%; */
+        background: rgb(250, 250, 250);
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        border-radius: 4px 0px 0px 4px;
+      }
+
+      .cont .card:hover .images {
+        width: 80px;
+        height: 80px;
+        left: -45px;
+        top: calc(50% -75px);
+        transition: 0.5s ease-in-out;
+        background-color: #9378a7;
+        transform: scale(35%);
+        border-radius: 4px;
+      }
+
+      .cont .card .images img {
+        max-width: 56px;
+        transition: 0.5s ease-in-out;
+        /* margin-left: -55%; */
+        /* height: 50%; */
+      }
+
+      .cont .card:hover .images img {
+        max-width: 48px;
+      }
+
+      .cont .card .content {
+        position: absolute;
+        right: 0;
+        width: calc(100% - 75px);
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 2px solid rgba(0, 0, 0, 0.025);
+      }
+
+      .cont .card .content h1 {
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-weight: 50;
+        color: white;
+        margin-left: 20%;
+        transition: 0.5s ease-in-out;
+      }
+
+      .cont .card:hover .content h1 {
+        margin-bottom: 15px;
+        font-size: 22px;
+        color: rgb(149, 45, 152);
+        margin-left: 20%;
+      }
+
+      .cont .card .content a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        /* background: red; */
+        text-decoration: none;
+        color: rgb(91, 134, 182);
+        transition: 0.5s ease-in-out;
+      }
+
+      .cont .card:hover .content a {
+        background-color: rgb(91, 134, 182);
+        color: white;
+        margin-left: 15%;
+        border-radius: 4px;
+        font-size: 18px;
+      }
+
+      .cont .card .content p {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        margin-left: 15%;
+        /* background: red; */
+        font-size: 12px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: #ffffff;
+        transition: 0.5s ease-in-out;
+        text-shadow: 0px 1px 0px rgba(80, 72, 72, 0.5);
+      }
+
+      .cont .card:hover .content p {
+        color: rgb(91, 134, 182);
+      }
+    </style>
+
+    <!--[if gte mso 9
+      ]><xml>
+        <mso:CustomDocumentProperties>
+          <mso:_dlc_DocId msdt:dt="string"
+            >7CP4ZU5533QS-1271-244</mso:_dlc_DocId
+          >
+          <mso:_dlc_DocIdItemGuid msdt:dt="string"
+            >4d2b13f8-2bf7-46fc-9f78-bfc07c5fb886</mso:_dlc_DocIdItemGuid
+          >
+          <mso:_dlc_DocIdUrl msdt:dt="string"
+            >http://elm-epm-dev-02/PWA/_layouts/15/DocIdRedir.aspx?ID=7CP4ZU5533QS-1271-244, 7CP4ZU5533QS-1271-244</mso:_dlc_DocIdUrl
+          >
+        </mso:CustomDocumentProperties>
+      </xml><!
+    [endif]-->
+  </head>
+
+  <body>
+    <div class="cont">
+      <div class="card">
+        <div class="images" data-text="Projects">
+          <img
+            src="http://elm-epm-dev-02/PWA/siteassets/icons/project 2016.png"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div>
+            <h1>Project Center</h1>
+            <p>Open your projects and access project information</p>
+            <a href="http://elm-epm-dev-02/pwa/pages/projectcenter.aspx"
+              >Project Center</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="images" data-text="Dashboard">
+          <img
+            src="http://elm-epm-dev-02/PWA/siteassets/icons/bar-chart128.png"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div>
+            <h1>Dashboard</h1>
+            <p>Access PMO Dashboard for corporate overlook</p>
+            <a
+              href="http://bi.nahj.elm.sa/Reports/powerbi/PMO%20Dashboard%20v3.2?rs:Command=Render&rc:Toolbar=false"
+              >Dashboard</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="images" data-text="Resource Center">
+          <img
+            src="http://elm-epm-dev-02/PWA/siteassets/icons/teamwork128.png"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div>
+            <h1>Resource Center</h1>
+            <p>This is the pharagraph</p>
+            <a href="">Resource Center</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="images" data-text="My Tasks">
+          <img
+            src="http://elm-epm-dev-02/PWA/siteassets/icons/checklist128.png"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div>
+            <h1>My Tasks</h1>
+            <p>This is the pharagraph</p>
+            <a href="">My Tasks</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="images" data-text="Settings">
+          <img src="C:/Users/abinmana/Desktop/flaticon/money (7).png" alt="" />
+        </div>
+        <div class="content">
+          <div>
+            <h1>Dashboard</h1>
+            <p>This is the pharagraph</p>
+            <a href="">More Detailes</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="images" data-text="Settings">
+          <img
+            src="http://elm-epm-dev-02/PWA/siteassets/icons/settings128.png"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div>
+            <h1>Settings</h1>
+            <p>This is the pharagraph</p>
+            <a href="">Settings</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
