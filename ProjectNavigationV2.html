@@ -1,0 +1,146 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+  <head>
+    <!-- <script type="text\javascript" src="C:/ELM/PPM-Epm/Code/Workspace Viewer/JS/WorkspaceViewer2.js"></script> -->
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="/PWA/SiteAssets/EpmV4/JS/WorkspaceViewer2.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="/_layouts/15/SP.RequestExecutor.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="/pwa/SiteAssets/elm-jquery-3.3.1.min.js"
+    ></script>
+    <style>
+      .topNavBarHr {
+        font-family: DIN Next LT Arabic, Segoe UI Light;
+        font-size: 16px;
+      }
+
+      .topNavBarHr div {
+        display: inline-flex;
+        flex-direction: row;
+
+        /* justify-content: center; */
+        /* align-items: center; */
+
+        /* float:left; */
+        transition: background 0.5s linear;
+        margin: 7px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: transparent;
+        border-radius: 8px;
+        min-width: 100px;
+        max-width: 1920px;
+      }
+      .topNavBarHr div:hover {
+        background-color: #942d98;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .topNavBarHr div a {
+        text-decoration: none;
+        min-width: 100px;
+        min-height: 60px;
+        color: grey;
+        transition: color 0.1s linear;
+        display: inline-flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .topNavBarHr div a img {
+        width: 32px;
+        height: 32px;
+      }
+
+      .topNavBarHr div a span {
+        margin-top: 16px;
+      }
+
+      .topNavBarHr div a:hover {
+        color: white;
+        cursor: default;
+      }
+    </style>
+  
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:_dlc_DocId msdt:dt="string">7CP4ZU5533QS-1271-215</mso:_dlc_DocId>
+<mso:_dlc_DocIdItemGuid msdt:dt="string">80d3a40d-cf37-48ed-879e-8044c6dafe74</mso:_dlc_DocIdItemGuid>
+<mso:_dlc_DocIdUrl msdt:dt="string">http://elm-epm-dev-02/PWA/_layouts/15/DocIdRedir.aspx?ID=7CP4ZU5533QS-1271-215, 7CP4ZU5533QS-1271-215</mso:_dlc_DocIdUrl>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+  <body>
+    <div id="topNavBarHr" class="topNavBarHr">
+      <div>
+        <a onclick="UpdateWorkspaceUrl('ProjectCharter')">
+          <img src="/PWA/SiteAssets/Epmv4/img/Charter.png" />
+          <span>Project Charter</span>
+        </a>
+      </div>
+
+      <div>
+        <a onclick="UpdateWorkspaceUrl('ProjectCharter')">
+          <img src="/PWA/SiteAssets/Epmv4/img/ChangeRequest2.png" />
+          <span>Change Requests</span>
+        </a>
+      </div>
+
+      <div>
+        <a onclick="UpdateWorkspaceUrl('ProjectCharter')">
+          <img src="/PWA/SiteAssets/Epmv4/img/Issue.png" />
+          <span>Issues</span>
+        </a>
+      </div>
+
+      <div>
+        <a onclick="UpdateWorkspaceUrl('ProjectCharter')">
+          <img src="/PWA/SiteAssets/Epmv4/img/Risk.png" />
+          <span>Risks</span>
+        </a>
+      </div>
+
+      <!-- <div> 
+            <a href="http://elm-epm-dev-02/pwa">
+                <img   src="/PWA/SiteAssets/Epmv4/img/documents1.png" /> 
+                <span>Documents</span>
+            </a>
+        </div> -->
+
+      <div>
+        <a onclick="UpdateWorkspaceUrl('Documents')">
+          <img src="/PWA/SiteAssets/Epmv4/img/documents2.png" />
+          <span>Documents</span>
+        </a>
+      </div>
+
+      <div>
+        <a href="http://elm-epm-dev-02/pwa">
+          <img src="/PWA/SiteAssets/Epmv4/img/deliverable.png" />
+          <span>DAFs</span>
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <iframe
+        width="80%"
+        id="MyFrame"
+        align="left"
+        style="margin:0 auto; display: block; height: 1300px; width: calc(100%-200px);"
+        src=""
+      ></iframe>
+    </div>
+  </body>
+</html>
