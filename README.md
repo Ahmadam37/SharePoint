@@ -23,4 +23,14 @@ I will show you how to do that and i will give you all instruction you want.
 
 
 
-# 
+# Create A Page
+
+Before you work on the html file you have to setup the page on SharePoint.
+
+
+1- Go to Settings.
+  
+  1.1- Open the site contents.
+
+![Settings](https://user-images.githubusercontent.com/51037193/103411286-33affa00-4b80-11eb-82d1-1e9c46bcad0c.gif)
+
