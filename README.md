@@ -34,3 +34,8 @@ Before you work on the html file you have to setup the page on SharePoint.
 
 ![Settings](https://user-images.githubusercontent.com/51037193/103411286-33affa00-4b80-11eb-82d1-1e9c46bcad0c.gif)
 
+
+
+  1.2- Then you have to add an App.
+  
+  ![SiteContent](https://user-images.githubusercontent.com/51037193/103475273-d94fad00-4dbc-11eb-9263-aa2f5fdcd51f.gif)
