@@ -51,3 +51,8 @@ Before you work on the html file you have to setup the page on SharePoint.
   
   ![AddAnApp](https://user-images.githubusercontent.com/51037193/103475725-ecfd1280-4dc0-11eb-9a11-b48c9b6ea468.gif)
 
+
+
+ 1.4- Now we can see our new Document.
+ 
+ 
