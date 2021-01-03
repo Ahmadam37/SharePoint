@@ -57,3 +57,11 @@ Before you work on the html file you have to setup the page on SharePoint.
  
  
 ![Add](https://user-images.githubusercontent.com/51037193/103476705-28034400-4dc9-11eb-9260-ec9fc86a4e18.gif)
+
+
+
+
+1.5- After you Opened your new Document, you have to go to the Library Settings to setup the Document.
+
+![LibrarySettings](https://user-images.githubusercontent.com/51037193/103477566-32c1d700-4dd1-11eb-8f18-e270238a2c96.gif)
+
