@@ -65,3 +65,9 @@ Before you work on the html file you have to setup the page on SharePoint.
 
 ![LibrarySettings](https://user-images.githubusercontent.com/51037193/103477566-32c1d700-4dd1-11eb-8f18-e270238a2c96.gif)
 
+
+
+
+1.6- Then Go to -> Advance Settings.
+
+![AdviceSettings](https://user-images.githubusercontent.com/51037193/103477706-5df8f600-4dd2-11eb-8d03-16972f111a44.gif)
