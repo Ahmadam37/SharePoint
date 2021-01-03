@@ -68,6 +68,6 @@ Before you work on the html file you have to setup the page on SharePoint.
 
 
 
-1.6- Then Go to -> Advance Settings.
+1.6- Then Go to -> Advanced Settings.
 
 ![AdviceSettings](https://user-images.githubusercontent.com/51037193/103477706-5df8f600-4dd2-11eb-8d03-16972f111a44.gif)
