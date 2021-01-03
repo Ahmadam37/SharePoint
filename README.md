@@ -71,3 +71,9 @@ Before you work on the html file you have to setup the page on SharePoint.
 1.6- Then Go to -> Advanced Settings.
 
 ![AdviceSettings](https://user-images.githubusercontent.com/51037193/103477706-5df8f600-4dd2-11eb-8d03-16972f111a44.gif)
+
+
+
+
+1.7- If you opend the advabced settings you have to change the " Allow management of content types? " to yes, becouse the defult value is No, and if you change it to yes you will have add all customaization you need to your page.
+
