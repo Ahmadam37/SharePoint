@@ -75,5 +75,6 @@ Before you work on the html file you have to setup the page on SharePoint.
 
 
 
-1.7- If you opend the advabced settings you have to change the " Allow management of content types? " to yes, becouse the defult value is No, and if you change it to yes you will have add all customaization you need to your page.
+1.7- If you opened the advanced settings, you would have to change "Allow content types to be managed?" To Yes, because the default setting is No, and if you change it to Yes, you will have all authentication to make any customizations you need for your page.
 
+![AdvicedSettings](https://user-images.githubusercontent.com/51037193/103478457-e6c66080-4dd7-11eb-8b90-4fe4878e2879.gif)
